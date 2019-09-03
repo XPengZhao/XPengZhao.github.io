@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Project 6
 description: a project with no image
@@ -52,4 +52,4 @@ The code is simple. Just add a col class to your image, and another class specif
 <div class="img_row">
     <img class="col two left" src="/img/6.jpg"/>
     <img class="col one left" src="/img/11.jpg"/>
-</div>
+</div> -->

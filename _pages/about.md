@@ -1,17 +1,17 @@
 ---
 layout: about
 permalink: /
-title: <strong>Your</strong> Name
-description: <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
+title: <strong>Zhao</strong> Xiaopeng
+description: # <a href="">Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-
     <p>Nanjing, China</p>
+    <p>xpzhao@smail.nju.edu.cn</p>
 
-news: true
+news: false
 social: true
 ---
 
