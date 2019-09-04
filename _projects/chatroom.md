@@ -2,6 +2,6 @@
 layout: page
 title: Chatroom
 description: A chatroom base on TCP Socket(Linux C)
-img: /assets/img/prof_pic.jpg
+img: /assets/img/backdrop.jpg
 ---
 
