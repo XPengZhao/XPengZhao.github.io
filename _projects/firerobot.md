@@ -7,6 +7,8 @@ img: /assets/img/backdrop.jpg
 
 <!-- 在_sass/_projects.scss/.project/.thumbnail/a/span中使字符常显 -->
 
+> 具体请参见Github链接：<https://github.com/XPengZhao/fire-fighting-robot>
+
 本项目是关于中国教育机器人大赛（ERCC）灭火与救援组的代码。比赛分为两个部分，分别是灭火与搜救部分。
 
 ![](/assets/img/f1.gif)
@@ -23,5 +25,4 @@ img: /assets/img/backdrop.jpg
 
 ![](/assets/img/f2.jpg)
 
-- 关于机器人的电控方案，请查看`/Source Code/Readme.md`。
-- 关于机器人的源代码，请查看`/Source Code/Code/`
+- 关于机器人的电控方案与源代码，请查看Github链接。
