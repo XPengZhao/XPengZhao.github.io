@@ -67,6 +67,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  highlight:
+    output: true
+    permalink: /highlights/:path/
 
 news_limit: 5
 

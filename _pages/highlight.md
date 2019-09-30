@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Hightlights
-description: 
+title: Highlights
+permalink: /highlights/
+description:
 ---
 
 **HONORS**
