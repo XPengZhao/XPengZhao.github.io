@@ -2,7 +2,7 @@
 layout: page
 title: Chatroom
 description: A chatroom base on TCP Socket(Linux C)
-img: /assets//assets/img/backdrop.jpg
+img: /assets/img/backdrop.jpg
 ---
 
 > 具体请参见Github链接：<https://github.com/XPengZhao/chatroom>
@@ -135,7 +135,7 @@ img: /assets//assets/img/backdrop.jpg
 ## 7. Makefile
 
 ```makefile
-all:Server Client 
+all:Server Client
 Server:server.c server.h
 	gcc -g -o server server.c -lpthread
 Client:client.c
@@ -144,4 +144,3 @@ clean:
 	rm server client
 
 ```
-
