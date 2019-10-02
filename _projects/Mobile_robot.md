@@ -12,7 +12,7 @@ img: /assets/img/backdrop.jpg
 > Arduino: <https://github.com/XPengZhao/Carduino>  
 > STM32: <https://github.com/XPengZhao/AGV>
 
-这三个项目是智能小车的入门级项目，所以设计十分简单，没有用到很复杂的知识。三个项目设计由易到难。下面是三个项目的简介，详细介绍请查看Github链接。
+这三个项目是智能小车的入门级项目。三个项目设计由易到难。下面是三个项目的简介，详细介绍请查看Github链接。
 
 ## 1. Raspberry小车
 
