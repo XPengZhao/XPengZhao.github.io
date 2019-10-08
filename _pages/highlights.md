@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hightlights
-permalink: 
+permalink: /highlights/
 description: 
 ---
 
