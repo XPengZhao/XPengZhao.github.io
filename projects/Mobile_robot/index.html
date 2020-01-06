@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>xpzhao(赵肖鹏)|personal home</title>
+  <title>xpzhao(赵肖鹏)|personal home | Mobile Robot</title>
   <meta name="description" content="# A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/projects/Mobile_robot/">
 </head>
 
 
@@ -88,56 +88,63 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <h1>zxp</h1>
-  <h2>a simple whitespace theme for academics</h2>
-</div>
+        <div class="post">
 
+  <header class="post-header">
+    <h1 class="post-title">Mobile Robot</h1>
+    <h5 class="post-description">base on Raspberry Pi or Arduino</h5>
+  </header>
 
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/comments/">a post with comments</a></h2>
-      <p class="post-meta">October 20, 2015 — 23:59</p>
-      <p>an example of a blog post with comments</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/math/">a post with math</a></h2>
-      <p class="post-meta">October 20, 2015 — 23:12</p>
-      <p>an example of a blog post with some math</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/code/">a post with code</a></h2>
-      <p class="post-meta">July 15, 2015 — 23:09</p>
-      <p>an example of a blog post with some code</p>
-    </li>
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2015/images/">a post with images</a></h2>
-      <p class="post-meta">May 16, 2015 — 05:01</p>
-      <p>this is what included images could look like</p>
-    </li>
-  
+  <article class="post-content Mobile Robot clearfix">
+    <h1 id="readme">Readme</h1>
+
+<blockquote>
+  <p>具体代码请参见Github链接:<br />
+Raspberry: <a href="https://github.com/XPengZhao/rpi-alphabot2">https://github.com/XPengZhao/rpi-alphabot2</a><br />
+Arduino: <a href="https://github.com/XPengZhao/Carduino">https://github.com/XPengZhao/Carduino</a><br />
+STM32: <a href="https://github.com/XPengZhao/AGV">https://github.com/XPengZhao/AGV</a></p>
+</blockquote>
+
+<p>这三个项目是智能小车的入门级项目。三个项目设计由易到难。下面是三个项目的简介，详细介绍请查看Github链接。</p>
+
+<h2 id="1-raspberry小车">1. Raspberry小车</h2>
+
+<p>小车的主控板为Raspberry Pi 3B，根据小车搭载的硬件，实现以下的基本功能：</p>
+
+<ul>
+  <li>能够顺着地上的黑色线条自动循迹</li>
+  <li>对于没有黑线的地方，通过Socket进行命令传输，从而控制运动，并可通过图形界面控制。</li>
+  <li>对于前方有障碍物，能够自动停止前进。</li>
 </ul>
 
+<h2 id="2-arduino小车">2. Arduino小车</h2>
 
-<div class="pagination clearfix mb1 mt4">
-  <div class="left">
-    
-      <span class="pagination-item disabled">Newer</span>
-    
-  </div>
-  <div class="right">
-    
-      <a class="pagination-item" href="/blog/page2/">Older</a>
-    
-  </div>
-  <div class="pagination-meta">Page 1 of 2</div>
+<p>包含了三个小项目，均基于Arduino开发，由易到难分别为：</p>
+
+<ul>
+  <li>循迹小车</li>
+  <li>蓝牙遥控小车</li>
+  <li>双轮自平衡车</li>
+  <li>重力感应遥控（MPU6050)的自平衡车（通过MPU6050进行手势控制）</li>
+</ul>
+
+<h2 id="3-stm32小车">3. STM32小车</h2>
+
+<p>小车的主控板为STM32F103，具有以下功能：</p>
+
+<ul>
+  <li>装有mecanum wheels，可实现全向运动</li>
+  <li>可由PS2手柄进行控制</li>
+  <li>基于MPU6050与编码器积分的移动位置计算</li>
+</ul>
+
+  </article>
+
+  
+
+  
+
 </div>
-
-
 
       </div>
     </div>
