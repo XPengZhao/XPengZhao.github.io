@@ -231,8 +231,7 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
-  - jekyll-include-cache
-  
+
 # Sitemap settings
 defaults:
   - scope:
