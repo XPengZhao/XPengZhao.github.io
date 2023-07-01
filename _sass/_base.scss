@@ -36,7 +36,8 @@ table {
 
 a,
 table.table a {
-  color: var(--global-theme-color);
+  // color: var(--global-theme-color);
+  color: var(--global-link-color);
 
   &:hover {
     color: var(--global-theme-color);
@@ -113,6 +114,38 @@ blockquote {
 }
 
 // Profile
+
+// zxp
+
+// .h2-section ~ .publications h2.bibliography:first-child {
+//   border-top: none;
+// }
+.h2-section ~ .publications h2.bibliography {
+  border-top: none;
+}
+
+
+
+.photo-fluid {
+  max-width: 80%;
+  height: auto;
+}
+
+:root {
+  // --my-title-color: #a22f2d; /* replace with desired color */
+  --my-name-color: #000000;
+}
+
+.post .post-header .post-name span{
+  font-size: 20px; /* replace with desired size */
+  color: var(--my-name-color); /* replace with your variable */
+}
+
+.h2-section{
+  color: #A22F2D;
+  font-size: 23px;
+}
+
 
 .profile {
   width: 100%;

@@ -2,11 +2,12 @@
 layout: default
 ---
 
+
 <!-- about.html -->
       <div class="post">
         <header class="post-header">
-          <h1 class="post-title">
-           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+          <h1 class="post-name">
+           {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}</span>
           </h1>
           <p class="desc">{{ page.subtitle }}</p>
         </header>
@@ -20,7 +21,7 @@ layout: default
               {% if page.profile.image_circular %}
                 {%- assign profile_image_class = "img-fluid z-depth-1 rounded-circle" -%}
               {% else %}
-                {%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
+                {%- assign profile_image_class = "photo-fluid z-depth-1 rounded" -%}
               {% endif %}
 
               {% include figure.html
@@ -52,9 +53,11 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
+          <hr>
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <!-- <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2> -->
+            <h2 class="h2-section font-weight-bold">Research</h2>
             {%- include selected_papers.html %}
           {%- endif %}
 
