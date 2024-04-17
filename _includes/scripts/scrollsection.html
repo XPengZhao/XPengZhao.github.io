@@ -1,0 +1,49 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+      const sections = document.querySelectorAll('h2.h2-section');
+      const navItems = document.querySelectorAll('.nav-item a');
+
+      // Mapping sections to their IDs for easier reference
+      const sectionTops = Array.from(sections).map(section => ({
+          id: section.getAttribute('id'),
+          top: section.offsetTop
+      }));
+
+      // Adding a virtual 'top' section for initial scroll position
+      sectionTops.unshift({ id: 'top', top: 0 });
+
+      function onScroll() {
+          let currentSectionId = 'top'; // Default to 'top'
+
+          // Determine which section is currently active based on scroll position
+          for (let i = 0; i < sectionTops.length; i++) {
+              if (window.pageYOffset >= sectionTops[i].top) {
+                  currentSectionId = sectionTops[i].id;
+              } else {
+                  break; // Stop checking once the next section's top is past the scroll position
+              }
+          }
+
+          // Update navigation items based on the current section
+          navItems.forEach(item => {
+              item.parentNode.classList.remove('active'); // Remove active from all items
+              const targetSection = item.getAttribute('href').split('#')[1];
+              if (targetSection === currentSectionId) {
+                  item.parentNode.classList.add('active'); // Add active to the current section link
+              }
+          });
+
+          // Optional: console logging to debug
+          console.log('Scroll position:', window.pageYOffset, 'Current section:', currentSectionId);
+      }
+
+      // Debounce the scroll event to limit how often it runs
+      let debounceTimer;
+      window.addEventListener('scroll', () => {
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(onScroll, 100); // Adjust delay as needed
+      });
+
+      onScroll(); // Run initially to set the correct active section
+  });
+  </script>

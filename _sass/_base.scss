@@ -113,6 +113,31 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// plain-link by zxp
+div .plain-link {
+  color: inherit; /* Keeps the color consistent even on hover, focus, or active states */
+  text-decoration: none;
+  border-bottom: none !important; /* Ensures this rule takes precedence */
+}
+
+.plain-link:hover,
+.plain-link:active,
+.plain-link:focus {
+  color: var(--global-theme-color); /* Specific color on hover */
+}
+
+.author, .title {
+  margin-bottom: 0;
+}
+
+.award-highlight {
+  color: red !important;
+  // font-style: italic;
+}
+
+
+//end zxp
+
 // Profile
 
 // zxp
@@ -202,7 +227,8 @@ blockquote {
 .navbar {
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
+  // background-color: var(--global-bg-color); // zxp
+  background-color: #2B394F; // zxp
   opacity: 0.95;
 }
 
@@ -240,24 +266,28 @@ blockquote {
   }
 
   .navbar-brand {
-    color: var(--global-text-color);
+    // color: var(--global-text-color); // zxp
+    color: #f2f4f8;
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: var(--global-text-color);
-
+    // color: var(--global-text-color); // zxp
+    color: #f2f4f8;
     &:hover {
-      color: var(--global-hover-color);
+      color: #A22F2D;
+      // color: var(--global-hover-color); // zxp
     }
   }
 
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
     font-weight: bolder;
-    color: var(--global-theme-color);
+    // color: var(--global-theme-color); // zxp
+    color: #A22F2D;
 
     &:hover {
-      color: var(--global-hover-color);
+      // color: var(--global-hover-color); // zxp
+      color: #A22F2D;
     }
   }
 
@@ -603,8 +633,8 @@ footer.sticky-bottom {
   h2.bibliography {
     color: var(--global-divider-color);
     border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
+    // padding-top: 1rem; zxp
+    // margin-top: 2rem; zxp
     margin-bottom: -2rem;
     text-align: right;
   }

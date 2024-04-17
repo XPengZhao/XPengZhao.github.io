@@ -55,7 +55,7 @@ navbar_fixed: true
 footer_fixed: true
 
 # Dimensions
-max_width: 800px
+max_width: 1000px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -278,6 +278,11 @@ scholar:
   style: apa
   locale: en
 
+  # configuration for the jekyll-scholar plugin
+  # Here link the _layouts/bib.html file when {% bibliography -f {{ site.scholar.bibliography }} %}
+  # source: This setting specifies the directory where your BibTeX files are stored.
+  # bibliography: This setting specifies the name of the BibTeX file you want to use.
+  # bibliography_template: This setting specifies the template to use for the bibliography.
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib

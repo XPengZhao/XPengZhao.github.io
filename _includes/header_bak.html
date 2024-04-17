@@ -44,19 +44,14 @@
                 {% endif %}
               {% endfor %}
 
-          <!-- Assume no active class handling here, leave it to JavaScript -->
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#top">{{ about_title }}</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#publications">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#honors">Honors</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="{{ '/' | relative_url }}#teaching">Teaching</a>
-          </li>
+              <!-- About -->
+              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
+                  {%- if page.permalink == '/' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
 
               {% if site.blog_nav_title %}
               <!-- Blog -->
@@ -124,4 +119,3 @@
       </progress>
 {%- endif %}
     </header>
-
