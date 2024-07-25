@@ -631,17 +631,24 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    // color: var(--global-divider-color); zxp commented
+    color: var(--global-text-color); // zxp
     border-top: 1px solid var(--global-divider-color);
-    // padding-top: 1rem; zxp
-    // margin-top: 2rem; zxp
-    margin-bottom: -2rem;
-    text-align: right;
+    // padding-top: 1rem; zxp commented
+    // margin-top: 2rem; zxp commented
+    // margin-bottom: -2rem; zxp commented
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    // text-align: right; zxp commented
+    text-align: left;
+
   }
 
   ol.bibliography {
-    list-style: none;
+    // list-style: none; zxp
+    list-style: decimal;
     padding: 0;
+    padding-left: 1rem; // the line add by zxp
     margin-top: 0;
 
     li {
