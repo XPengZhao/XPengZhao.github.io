@@ -24,3 +24,6 @@ I am a Ph.D. student in the [Department of Computing](https://www.polyu.edu.hk/c
 <b>Email:</b> xiaopeng.zhao@connect.polyu.hk
 
 [<b>Github</b>](https://github.com/XPengZhao) / [<b>Scholar</b>](https://scholar.google.com/citations?user=G9p9v3cAAAAJ&hl=zh-CN) / [<b>CV</b>](https://xpengzhao.github.io/assets/pdf/cv-xpzhao.pdf)
+
+<p style="color: rgb(255, 0, 0); font-weight: bold;"> I am looking for postdoc and researcher positions. If you are interested in my research, please feel free to contact me.</p>
+
