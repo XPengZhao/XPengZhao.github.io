@@ -615,7 +615,8 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  // margin-top: 2rem;  modified by zxp
+  margin-top: 1.2rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -634,14 +635,15 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    // color: var(--global-divider-color); zxp commented
-    color: var(--global-text-color); // zxp
+    // color: var(--global-divider-color); //zxp commented
+    color: var(--global-distill-app-color); // zxp
     border-top: 1px solid var(--global-divider-color);
     // padding-top: 1rem; zxp commented
     // margin-top: 2rem; zxp commented
     // margin-bottom: -2rem; zxp commented
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    // font-size: 1.3rem; zxp commented
+    font-size: 1.1rem;
     // text-align: right; zxp commented
     text-align: left;
 
@@ -651,7 +653,7 @@ footer.sticky-bottom {
     // list-style: none; zxp
     list-style: decimal;
     padding: 0;
-    padding-left: 1rem; // the line add by zxp
+    padding-left: 2rem; // the line add by zxp
     margin-top: 0;
 
     li {
@@ -690,6 +692,17 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+      }
+
+      .venue {
+        display: inline-block;
+        background-color: #2B394F;
+        color: white;
+        padding: 3px 6px;
+        border-radius: 2px;
+        font-size: 0.88rem;
+        font-weight: bold;
+        line-height: 100%
       }
 
       .author {
