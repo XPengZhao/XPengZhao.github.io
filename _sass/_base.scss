@@ -800,6 +800,12 @@ footer.sticky-bottom {
         border: dashed 1px var(--global-bg-color);
       }
 
+      // zxp added
+      div.links {
+        margin-top: -0.2rem;
+        font-size: 0.9rem;
+      }
+
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
