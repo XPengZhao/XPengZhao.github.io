@@ -20,9 +20,8 @@ teaching: true  # includes a list of teaching experience
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student in the [Department of Computing](https://www.polyu.edu.hk/comp/) at the Hong Kong  Polytechnic University, under the supervising of Dr. [Lei Yang](http://young.tagsys.org/). Previously, I received my B.E. degree from [Nanjing University](https://www.nju.edu.cn/en/). My primary research interests focus on mobile computing, wireless communication, intelligent sensing, and AI-driven wireless technologies, including indoor localization and wireless channel prediction.
-
-I am going to join the Theory Lab, Huawei HKRC as a researcher.
+I am currently a researcher at Theory Lab, Huawei Hong Kong Research Center, working on LLM inference acceleration on Ascend NPU.
+Previously, I earned my Ph.D. degree in the [Department of Computing](https://www.polyu.edu.hk/comp/) at the Hong Kong Polytechnic University, under the supervising of Dr. [Lei Yang](http://young.tagsys.org/). I received my B.E. degree from [Nanjing University](https://www.nju.edu.cn/en/). My primary research interests focus on AI infrastructures and applications, mobile computing, wireless communication, intelligent sensing, and AI-driven wireless technologies, including indoor localization and wireless channel prediction.
 
 <b>Email:</b> xiaopeng.zhao@connect.polyu.hk
 
