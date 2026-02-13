@@ -15,6 +15,7 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 research_interests: false  # includes a list of research interests
 honor: true
+work_experience: true
 service: true
 teaching: true  # includes a list of teaching experience
 social: false  # includes social icons at the bottom of the page
@@ -28,4 +29,3 @@ Previously, I earned my Ph.D. degree in the [Department of Computing](https://ww
 [<b>Github</b>](https://github.com/XPengZhao) / [<b>Scholar</b>](https://scholar.google.com/citations?user=G9p9v3cAAAAJ&hl=zh-CN) / [<b>CV</b>](https://xpengzhao.github.io/assets/pdf/cv-xpzhao.pdf)
 
 <!-- <p style="color: rgb(255, 0, 0); font-weight: bold;"> I am looking for postdoc and researcher positions. If you are interested in my research, please feel free to contact me.</p> -->
-

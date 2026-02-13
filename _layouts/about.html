@@ -54,6 +54,18 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
+          {% if page.work_experience -%}
+            <hr>
+            <h2 id="work" class="h2-section font-weight-bold">Work Experience</h2>
+            {%- include work_experience.html %}
+          {%- endif %}
+
+          {% if page.honor -%}
+            <hr>
+            <h2 id="honors" class="h2-section font-weight-bold">Awards and Honors</h2>
+            {%- include honor.html %}
+          {%- endif %}
+
           <hr>
           <!-- Selected papers -->
           {% if page.selected_papers -%}
@@ -67,12 +79,6 @@ layout: default
             <hr>
             <h2 id="research" class="h2-section font-weight-bold">Research Interests</h2>
             {{ page.research_interests }}
-          {%- endif %}
-
-          {% if page.honor -%}
-            <hr>
-            <h2 id="honors" class="h2-section font-weight-bold">Awards and Honors</h2>
-            {%- include honor.html %}
           {%- endif %}
 
           {% if page.service -%}
